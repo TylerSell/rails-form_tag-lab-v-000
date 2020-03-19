@@ -12,5 +12,9 @@ class StudentsController < ApplicationController
     @student 
     redirect_to new_student_path
   end
+  
+  def new 
+    
+  end
 
 end
