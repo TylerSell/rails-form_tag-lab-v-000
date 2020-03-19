@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def create
-    
+    @student 
     redirect_to new_student_path
   end
 
